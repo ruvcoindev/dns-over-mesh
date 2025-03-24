@@ -1,0 +1,15 @@
+mesh:
+  nodes:
+    - address: "192.168.1.1"
+      port: 5353
+    - address: "192.168.1.2"
+      port: 5353
+
+dns:
+  tls:
+    cert: "path/to/cert.pem"
+    key: "path/to/key.pem"
+
+web:
+  port: 8080
+
